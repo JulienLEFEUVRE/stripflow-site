@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Stripflow · Intégration IA</title>
-<meta name="claude:viewport-fit-sides" content="cover">
-<meta name="description" content="Stripflow conçoit, installe et maintient des assistants IA sur mesure pour les TPE et PME françaises, directement dans vos outils. L'IA prépare, vous validez.">
-<meta property="og:title" content="Stripflow · Intégration IA sur mesure pour les entreprises françaises">
-<meta property="og:description" content="Des assistants IA branchés sur vos outils, qui font les tâches répétitives. Vous validez avant chaque envoi.">
+<title>Stripflow · Votre marketing en interne avec Claude Code et Codex</title>
+<meta name="description" content="Stripflow installe Claude Code et Codex dans votre entreprise, les branche sur vos outils et forme vos équipes. Contenus, campagnes, e-mails et reporting, produits en interne.">
+<meta property="og:title" content="Stripflow · Votre service marketing, en interne">
+<meta property="og:description" content="On installe Claude Code et Codex chez vous, on les branche sur vos outils et on forme vos équipes.">
 <meta property="og:locale" content="fr_FR">
-<link rel="preload" href="fonts/BricolageGrotesque-latin-3y9K6as8bTXq_nANBjzKo3IeZx8z6up5BeSl9D4dj_x9PpZBMlGIInHWVyNJ.woff2" as="font" type="font/woff2" crossorigin>
+<meta name="theme-color" content="#08070e">
+<link rel="preload" href="fonts/Sora-latin-xMQ9uFFYT72X5wkB_18qmnndmSdSnh2BAfO5mnuyOo1lfiQwV6-xo6eeIw.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="fonts/fonts.css">
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -19,12 +19,12 @@
   <div class="wrap">
     <a class="logo" href="#top" aria-label="Stripflow, retour en haut"><span class="logo-mark" aria-hidden="true"></span>Stripflow</a>
     <nav class="nav" aria-label="Navigation principale">
-      <a href="#taches">Ce qu'on automatise</a>
-      <a href="#metiers">Métiers</a>
+      <a href="#services">Ce que vous produisez</a>
+      <a href="#pourquoi">Pourquoi en interne</a>
+      <a href="#stack">Ce qu'on installe</a>
       <a href="#methode">Méthode</a>
-      <a href="#offre">Offre</a>
       <a href="#faq">Questions</a>
-      <a class="btn" href="https://calendly.com/j50-lefeuvre/30min" target="_blank" rel="noopener">Réserver un appel</a>
+      <a class="btn btn-primary" href="https://calendly.com/j50-lefeuvre/30min" target="_blank" rel="noopener">Réserver un appel</a>
     </nav>
   </div>
 </header>
@@ -32,251 +32,195 @@
 <main id="top">
 
   <section class="hero">
+    <div class="bg-glow" aria-hidden="true"></div>
+    <div class="grid-bg" aria-hidden="true"></div>
     <div class="wrap">
       <div class="hero-copy">
-        <p class="eyebrow">Intégration IA sur mesure · TPE et PME françaises</p>
-        <h1>L'IA fait le travail répétitif. <mark>Vous gardez la main.</mark></h1>
-        <p class="lead">Stripflow conçoit, installe et maintient des assistants IA sur mesure pour les entreprises françaises. Ils travaillent dans vos outils actuels (messagerie, documents, logiciel métier) et vous soumettent chaque résultat avant qu'il parte.</p>
+        <span class="pill"><b>IA</b>Claude Code et Codex, installés chez vous</span>
+        <h1>Votre service marketing, <span class="grad">en interne.</span></h1>
+        <p class="lead">Stripflow installe Claude Code et Codex dans votre entreprise, les branche sur vos outils et forme vos équipes. Contenus, campagnes, e-mails, pages web, reporting&nbsp;: vous produisez vous-mêmes ce que vous confiiez à une agence.</p>
         <div class="hero-cta">
-          <a class="btn" href="https://calendly.com/j50-lefeuvre/30min" target="_blank" rel="noopener">Réserver un appel de 30 min <span class="arrow" aria-hidden="true">→</span></a>
-          <a class="btn ghost" href="#taches">Voir ce qu'on automatise</a>
+          <a class="btn btn-primary" href="https://calendly.com/j50-lefeuvre/30min" target="_blank" rel="noopener">Réserver un appel de 30 min <span class="arrow" aria-hidden="true">→</span></a>
+          <a class="btn btn-ghost" href="#services">Voir ce que vous produirez</a>
         </div>
-        <p class="hero-note"><span>Sur vos outils actuels</span><span>Aucun envoi sans votre accord</span><span>Sans jargon</span></p>
+        <p class="hero-proof"><span>Coût fixe, prévisible</span><span>Savoir-faire qui reste chez vous</span><span>Vous validez tout</span></p>
       </div>
 
-      <figure class="agent" aria-label="Exemple illustratif : un assistant qui prépare des relances de devis">
-        <div class="agent-top">
-          <b>Assistant relances devis</b>
-          <span class="tag">Exemple illustratif</span>
+      <div class="term-wrap">
+        <figure class="term" aria-label="Exemple illustratif d'une session de travail marketing avec Claude Code">
+          <div class="term-bar"><i></i><i></i><i></i><span>~/marketing</span><em>Exemple</em></div>
+          <div class="term-body">
+            <div class="l cmd">$ <b>claude</b></div>
+            <div class="l p">Rédige la newsletter de décembre à partir des 3 derniers articles du blog, dans notre ton.</div>
+            <div class="l t">Lecture de blog/ (3 articles) et de charte/ton-de-voix.md</div>
+            <div class="l ok">newsletter-decembre.md créée · 612 mots</div>
+            <div class="l p">Décline-la en 5 posts LinkedIn et 3 annonces Meta.</div>
+            <div class="l t">Application de charte/formats-reseaux.md</div>
+            <div class="l ok">5 posts + 3 annonces → campagnes/decembre/</div>
+            <div class="l p">Prépare le rapport des campagnes de novembre. <span class="caret" aria-hidden="true"></span></div>
+          </div>
+        </figure>
+        <div class="float-card"><b>À valider</b><span>8 brouillons prêts dans campagnes/decembre/. Rien n'est publié sans vous.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="tools" aria-label="Exemples d'outils connectables">
+    <div class="wrap">
+      <p>Se branche sur vos outils</p>
+      <ul>
+        <li>Google Workspace</li><li>Microsoft 365</li><li>Notion</li><li>HubSpot</li><li>WordPress</li><li>Shopify</li><li>Google Ads</li><li>Meta Ads</li><li>Google Analytics</li>
+      </ul>
+    </div>
+  </div>
+
+  <section class="section" id="services" aria-labelledby="services-t">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Ce que vous produisez en interne</span>
+        <h2 id="services-t">Tout votre marketing, <span class="grad">produit par vos équipes.</span></h2>
+        <p class="lead">Vos équipes donnent la consigne en français. Claude Code et Codex font le travail dans vos fichiers et vos outils, selon votre charte.</p>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 19.5V5a2 2 0 0 1 2-2h9l5 5v11.5a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 4 19.5z"/><path d="M14 3v5h5M8 13h8M8 17h5"/></svg></span>
+          <h3>Contenus et SEO</h3>
+          <p>Articles de blog, pages optimisées pour Google, livres blancs et études de cas, dans votre ton.</p>
+          <code>écris l'article « 5 erreurs de trésorerie » pour le blog</code>
+        </article>
+        <article class="card">
+          <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 11v2a1 1 0 0 0 1 1h2l5 4V6L6 10H4a1 1 0 0 0-1 1z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg></span>
+          <h3>Réseaux sociaux</h3>
+          <p>Posts LinkedIn, carrousels et calendrier éditorial du mois, déclinés à partir de vos contenus existants.</p>
+          <code>planifie 12 posts LinkedIn pour janvier</code>
+        </article>
+        <article class="card">
+          <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 14h3M8 17h6"/></svg></span>
+          <h3>Publicités</h3>
+          <p>Accroches, textes et variantes d'annonces Google et Meta, prêts à tester.</p>
+          <code>propose 10 accroches pour la campagne salon</code>
+        </article>
+        <article class="card">
+          <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span>
+          <h3>E-mails et newsletters</h3>
+          <p>Newsletters, séquences de relance et de bienvenue, rédigées puis mises en forme.</p>
+          <code>écris la séquence de bienvenue en 4 e-mails</code>
+        </article>
+        <article class="card">
+          <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 9l-4 3 4 3M16 9l4 3-4 3M13.5 6l-3 12"/></svg></span>
+          <h3>Pages web et landing pages</h3>
+          <p>Claude Code et Codex écrivent le code&nbsp;: pages de campagne, formulaires, mises à jour du site.</p>
+          <code>crée la landing page du webinaire de février</code>
+        </article>
+        <article class="card">
+          <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></span>
+          <h3>Reporting et veille</h3>
+          <p>Rapport mensuel des campagnes à partir de vos exports, suivi des concurrents, synthèses pour la direction.</p>
+          <code>résume les résultats de novembre en une page</code>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="pourquoi" aria-labelledby="pourquoi-t" style="background: var(--bg-2); border-block: 1px solid var(--line);">
+    <div class="wrap">
+      <div class="section-head center">
+        <span class="eyebrow">Pourquoi en interne</span>
+        <h2 id="pourquoi-t">Arrêtez de louer votre marketing.</h2>
+        <p class="lead">Une agence vous facture du temps. Avec Stripflow, vous payez des outils à coût fixe et le savoir-faire reste dans votre entreprise.</p>
+      </div>
+      <div class="compare">
+        <div class="col">
+          <h3>Agence ou freelances <span class="tag">Externe</span></h3>
+          <ul>
+            <li>La facture monte avec chaque demande supplémentaire</li>
+            <li>Allers-retours et délais pour chaque modification</li>
+            <li>Le savoir-faire part avec le prestataire</li>
+            <li>Vos données et vos fichiers sont éparpillés chez des tiers</li>
+          </ul>
         </div>
-        <ol class="log">
-          <li><time>08:30</time><span>Repère 6 devis envoyés il y a 7 jours, toujours sans réponse.</span></li>
-          <li><time>08:31</time><span>Rédige une relance adaptée à chaque client, à partir du devis et de vos échanges.</span></li>
-          <li><time>08:32</time><span>Les range dans vos brouillons et vous prévient.</span></li>
-        </ol>
-        <div class="draft">
-          <div class="meta"><span>À : c.martin@exemple.fr</span><span>Objet : Votre devis n° 2026-118</span></div>
-          <p>Bonjour Madame Martin, je reviens vers vous au sujet du devis envoyé le 6 novembre pour l'aménagement de vos bureaux. Avez-vous pu en prendre connaissance&nbsp;? Je peux vous proposer un court échange cette semaine si vous avez des questions.</p>
-          <span class="stamp">À valider par vous</span>
+        <div class="col us">
+          <h3>Stripflow <span class="tag">Interne</span></h3>
+          <ul>
+            <li>Un coût fixe chaque mois, quel que soit le volume produit</li>
+            <li>Une consigne, un brouillon en quelques minutes</li>
+            <li>Vos équipes formées, vos méthodes écrites et réutilisables</li>
+            <li>Tout reste dans vos outils et vos dossiers</li>
+          </ul>
         </div>
-        <div class="agent-foot" aria-hidden="true"><span>Modifier</span><span class="yes">Envoyer</span></div>
-      </figure>
+      </div>
     </div>
   </section>
 
-  <section class="section alt" aria-labelledby="constat-t">
+  <section class="section" id="stack" aria-labelledby="stack-t">
     <div class="wrap">
       <div class="section-head">
-        <p class="eyebrow">Le constat</p>
-        <h2 id="constat-t">Beaucoup ont essayé ChatGPT. Peu l'ont fait entrer dans leur quotidien.</h2>
+        <span class="eyebrow">Ce qu'on installe</span>
+        <h2 id="stack-t">Deux agents IA de référence, <span class="grad">réglés pour votre entreprise.</span></h2>
       </div>
-      <div class="facts">
-        <div class="fact"><span class="num">40&nbsp;%</span><p>des TPE et PME françaises utilisent l'IA en 2026.</p></div>
-        <div class="fact"><span class="num">19&nbsp;%</span><p>seulement paient pour un outil d'IA.</p></div>
-        <div class="fact"><span class="num">31&nbsp;%</span><p>des entreprises qui utilisent l'IA générative constatent un vrai gain de productivité.</p></div>
-      </div>
-      <p class="source">Sources : Baromètre France Num 2026 (DGE / Crédoc) pour les deux premiers chiffres ; Banque de France, bulletin 266-1, septembre 2026, entreprises de 20 salariés et plus, pour le troisième.</p>
-      <p class="lead" style="margin-top:32px">Le problème n'est pas l'outil. C'est le branchement&nbsp;: relier l'IA à vos mails, à vos documents et à votre logiciel, pour qu'elle fasse une tâche précise, chaque jour, de façon fiable. C'est notre métier.</p>
-    </div>
-  </section>
-
-  <section class="section" id="taches" aria-labelledby="taches-t">
-    <div class="wrap">
-      <div class="section-head">
-        <p class="eyebrow">Ce qu'on automatise</p>
-        <h2 id="taches-t">Les tâches qui vous prennent des heures chaque semaine.</h2>
-        <p class="lead">On commence toujours par une seule tâche, celle qui vous coûte le plus. Quelques exemples&nbsp;:</p>
-      </div>
-      <div class="tasks">
-        <article class="task">
-          <span class="before-after">Messagerie · logiciel de devis</span>
-          <h3>Relances de devis et d'impayés</h3>
-          <p>Les relances sont prêtes chaque matin, personnalisées pour chaque client. Vous n'avez plus qu'à les relire.</p>
+      <div class="stack">
+        <article class="stack-item">
+          <span class="who">Anthropic</span>
+          <h3>Claude Code</h3>
+          <p>Un agent IA qui travaille directement dans vos fichiers et vos outils&nbsp;: il lit vos documents, rédige, met en forme et automatise des tâches complètes à partir d'une simple consigne.</p>
         </article>
-        <article class="task">
-          <span class="before-after">Gmail · Outlook</span>
-          <h3>Tri des mails et brouillons de réponse</h3>
-          <p>Les messages sont classés par urgence et les réponses courantes sont rédigées dans votre ton.</p>
+        <article class="stack-item">
+          <span class="who">OpenAI</span>
+          <h3>Codex</h3>
+          <p>L'agent d'OpenAI, complémentaire de Claude Code. On l'utilise là où il est le plus efficace, et vos équipes gardent le choix de l'outil.</p>
         </article>
-        <article class="task">
-          <span class="before-after">PDF · logiciel comptable · tableur</span>
-          <h3>Saisie de factures et de pièces</h3>
-          <p>Montants, dates et fournisseurs sont lus dans les documents et reportés là où vous en avez besoin.</p>
-        </article>
-        <article class="task">
-          <span class="before-after">Visio · agenda</span>
-          <h3>Comptes rendus de réunion</h3>
-          <p>Résumé, décisions et actions à mener, envoyés aux participants après votre relecture.</p>
-        </article>
-        <article class="task">
-          <span class="before-after">Vos modèles · Drive · SharePoint</span>
-          <h3>Documents types</h3>
-          <p>Courriers, contrats et propositions commerciales préparés à partir de vos propres modèles.</p>
-        </article>
-        <article class="task">
-          <span class="before-after">CRM · facturation · tableur</span>
-          <h3>Point chiffré de la semaine</h3>
-          <p>Les chiffres utiles sont rassemblés depuis vos outils et résumés sur une page, chaque lundi.</p>
+        <article class="stack-item wide">
+          <div><h3>Vos méthodes, écrites une fois</h3><p>Ton de voix, charte, formats, process de validation&nbsp;: on les transforme en consignes prêtes à l'emploi que tout le monde réutilise.</p></div>
+          <div><h3>Vos outils connectés</h3><p>Messagerie, documents, CRM, site, régies publicitaires, statistiques&nbsp;: l'IA travaille là où sont vos données.</p></div>
+          <div><h3>Vos équipes autonomes</h3><p>Formation pratique sur vos vrais dossiers, pour que chacun produise seul à la fin de l'installation.</p></div>
         </article>
       </div>
     </div>
   </section>
 
-  <section class="section alt" id="metiers" aria-labelledby="metiers-t">
+  <section class="section" id="methode" aria-labelledby="methode-t" style="background: var(--bg-2); border-block: 1px solid var(--line);">
     <div class="wrap">
       <div class="section-head">
-        <p class="eyebrow">Par métier</p>
-        <h2 id="metiers-t">Pensé pour votre métier, pas pour «&nbsp;les entreprises&nbsp;» en général.</h2>
+        <span class="eyebrow">Méthode</span>
+        <h2 id="methode-t">De l'appel à l'autonomie, en 4 étapes.</h2>
       </div>
-      <div class="trades">
-        <article class="trade">
-          <h3>Cabinets d'avocats et études de notaires</h3>
-          <p class="lead" style="font-size:1rem">L'IA prépare, vous relisez et signez.</p>
-          <ul>
-            <li>Premiers projets de courriers et d'actes à partir de vos modèles</li>
-            <li>Synthèse de pièces et de dossiers volumineux</li>
-            <li>Suivi des délais et relances clients</li>
-          </ul>
-        </article>
-        <article class="trade">
-          <h3>Cabinets d'expertise comptable</h3>
-          <p class="lead" style="font-size:1rem">Moins de relances, plus de conseil.</p>
-          <ul>
-            <li>Collecte des pièces manquantes auprès des clients</li>
-            <li>Pré-saisie et rapprochement des documents</li>
-            <li>Réponses préparées aux questions récurrentes</li>
-          </ul>
-        </article>
-        <article class="trade">
-          <h3>PME de services&nbsp;: conseil, ingénierie, agences</h3>
-          <p class="lead" style="font-size:1rem">Plus de temps facturable.</p>
-          <ul>
-            <li>Propositions commerciales et devis</li>
-            <li>Comptes rendus et suivi de projet</li>
-            <li>Relances et reporting client</li>
-          </ul>
-        </article>
-      </div>
-      <p class="trades-more">Votre métier n'est pas dans la liste&nbsp;? Si vos équipes répètent la même tâche chaque semaine, elle peut sans doute être confiée à un assistant. <a href="https://calendly.com/j50-lefeuvre/30min" target="_blank" rel="noopener">Parlons-en</a>.</p>
-    </div>
-  </section>
-
-  <section class="section" id="methode" aria-labelledby="methode-t">
-    <div class="wrap">
-      <div class="section-head">
-        <p class="eyebrow">Méthode</p>
-        <h2 id="methode-t">Vous voyez le résultat avant de décider.</h2>
-      </div>
-      <ol class="steps">
-        <li class="step"><span class="dur">30 min</span><h3>Appel de cadrage</h3><p>Vous décrivez vos tâches répétitives. On repère celle qui vous coûte le plus de temps.</p></li>
-        <li class="step"><span class="dur">Sur vos documents</span><h3>Démonstration</h3><p>On montre l'assistant sur une vraie tâche, avec vos données. Vous jugez sur pièce.</p></li>
-        <li class="step"><span class="dur">Dans vos outils</span><h3>Mise en place</h3><p>On branche l'assistant sur vos outils, on le teste avec vos équipes et on les forme.</p></li>
-        <li class="step"><span class="dur">Chaque mois</span><h3>Suivi</h3><p>On surveille, on corrige et on fait évoluer l'assistant quand vos besoins changent.</p></li>
+      <ol class="timeline">
+        <li><span class="dur">30 min</span><h3>Audit marketing</h3><p>On fait le tour de ce que vous produisez, de ce que vous sous-traitez et de ce que ça vous coûte.</p></li>
+        <li><span class="dur">Chez vous</span><h3>Installation</h3><p>Claude Code et Codex installés sur vos postes, branchés sur vos outils, réglés sur votre charte.</p></li>
+        <li><span class="dur">Sur vos dossiers</span><h3>Formation</h3><p>Vos équipes apprennent en produisant de vrais contenus, avec une bibliothèque de consignes prêtes.</p></li>
+        <li><span class="dur">Chaque mois</span><h3>Suivi</h3><p>On ajuste les consignes, on ajoute de nouveaux usages et on répond aux questions de l'équipe.</p></li>
       </ol>
-    </div>
-  </section>
-
-  <section class="section alt" id="offre" aria-labelledby="offre-t">
-    <div class="wrap">
-      <div class="section-head">
-        <p class="eyebrow">Offre</p>
-        <h2 id="offre-t">Trois façons de travailler ensemble.</h2>
-        <p class="lead">Vous avez un prix ferme avant de vous engager.</p>
-      </div>
-      <div class="offers">
-        <article class="offer">
-          <h3>Démonstration</h3>
-          <p class="price">Sur devis<small>Une tâche, sur vos données</small></p>
-          <ul>
-            <li>Analyse de la tâche ciblée</li>
-            <li>Prototype qui tourne sur vos documents</li>
-            <li>Estimation du temps gagné et du coût de mise en place</li>
-          </ul>
-          <a class="btn ghost" href="https://calendly.com/j50-lefeuvre/30min" target="_blank" rel="noopener">En parler</a>
-        </article>
-        <article class="offer main">
-          <h3>Assistant livré</h3>
-          <p class="price">Au forfait<small>Prix fixé après la démonstration</small></p>
-          <ul>
-            <li>Conception sur mesure</li>
-            <li>Branchement à vos outils</li>
-            <li>Tests avec vos équipes</li>
-            <li>Formation des utilisateurs</li>
-          </ul>
-          <a class="btn" href="https://calendly.com/j50-lefeuvre/30min" target="_blank" rel="noopener">Réserver un appel <span class="arrow" aria-hidden="true">→</span></a>
-        </article>
-        <article class="offer">
-          <h3>Suivi mensuel</h3>
-          <p class="price">Abonnement<small>Pour que l'assistant reste fiable</small></p>
-          <ul>
-            <li>Surveillance et corrections</li>
-            <li>Ajustements et nouvelles tâches</li>
-            <li>Un interlocuteur qui connaît votre entreprise</li>
-          </ul>
-          <a class="btn ghost" href="https://calendly.com/j50-lefeuvre/30min" target="_blank" rel="noopener">En parler</a>
-        </article>
-      </div>
     </div>
   </section>
 
   <section class="section" aria-labelledby="engagements-t">
     <div class="wrap">
       <div class="section-head">
-        <p class="eyebrow">Nos engagements</p>
-        <h2 id="engagements-t">Une IA utile, sous votre contrôle.</h2>
+        <span class="eyebrow">Nos engagements</span>
+        <h2 id="engagements-t">Puissant, et sous votre contrôle.</h2>
       </div>
       <div class="promises">
-        <div class="promise">
-          <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12.5l5 5L20 6.5"/></svg></span>
-          <div><h3>Vous validez avant chaque envoi</h3><p>Par défaut, l'assistant prépare et vous décidez. Rien ne part chez un client sans votre accord, sauf si vous le demandez.</p></div>
-        </div>
-        <div class="promise">
-          <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M8 21h8M12 18v3"/></svg></span>
-          <div><h3>On part de vos outils</h3><p>Pas de nouveau logiciel à apprendre. L'assistant travaille dans votre messagerie, vos dossiers et votre logiciel métier quand celui-ci le permet.</p></div>
-        </div>
-        <div class="promise">
-          <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="5" y="10" width="14" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></span>
-          <div><h3>Vos données, sous contrôle</h3><p>On vous dit quel service traite quelles données, où et dans quelles conditions. Tout est documenté pour votre conformité au RGPD.</p></div>
-        </div>
-        <div class="promise">
-          <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H8l-4 4z"/></svg></span>
-          <div><h3>En français clair</h3><p>Vous savez ce que fait l'assistant, ce qu'il ne fait pas et ce qu'il coûte. Sans jargon.</p></div>
-        </div>
+        <div class="promise"><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12.5l5 5L20 6.5"/></svg></span><h3>Vous validez</h3><p>L'IA prépare des brouillons. Rien n'est publié ou envoyé sans votre accord.</p></div>
+        <div class="promise"><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="5" y="10" width="14" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></span><h3>Vos données protégées</h3><p>Offres professionnelles, réglages de confidentialité documentés, conformité RGPD.</p></div>
+        <div class="promise"><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span><h3>Coût prévisible</h3><p>Des abonnements à prix fixe et une prestation chiffrée avant de commencer.</p></div>
+        <div class="promise"><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H8l-4 4z"/></svg></span><h3>Sans jargon</h3><p>Pas besoin de savoir coder. On parle marketing, pas technique.</p></div>
       </div>
     </div>
   </section>
 
-  <section class="section alt" id="faq" aria-labelledby="faq-t">
+  <section class="section" id="faq" aria-labelledby="faq-t" style="padding-top: 0;">
     <div class="wrap">
-      <div class="section-head">
-        <p class="eyebrow">Questions fréquentes</p>
+      <div class="section-head center">
+        <span class="eyebrow">Questions fréquentes</span>
         <h2 id="faq-t">Ce qu'on nous demande avant de commencer.</h2>
       </div>
       <div class="faq">
-        <details>
-          <summary>Faut-il changer de logiciel&nbsp;?</summary>
-          <p>Non. On part de ce que vous utilisez déjà. Si votre logiciel ne permet pas de s'y connecter, on vous le dit dès l'appel de cadrage, avec les solutions possibles.</p>
-        </details>
-        <details>
-          <summary>L'IA peut-elle se tromper&nbsp;?</summary>
-          <p>Oui, comme un collaborateur. C'est pour cela que l'assistant prépare et que vous validez. Pendant les tests, on mesure les erreurs et on corrige avant la mise en service.</p>
-        </details>
-        <details>
-          <summary>Que deviennent mes données&nbsp;?</summary>
-          <p>Avant de commencer, on choisit avec vous les services utilisés et leurs conditions&nbsp;: lieu de traitement, durée de conservation, réutilisation. On privilégie les offres professionnelles qui n'utilisent pas vos données pour entraîner leurs modèles.</p>
-        </details>
-        <details>
-          <summary>Combien ça coûte&nbsp;?</summary>
-          <p>Cela dépend de la tâche et de vos outils. Après l'appel de cadrage, vous recevez un prix ferme pour la démonstration, puis pour la mise en place. Vous ne vous engagez qu'une fois le prix connu.</p>
-        </details>
-        <details>
-          <summary>Mes équipes vont-elles s'en servir&nbsp;?</summary>
-          <p>On choisit une tâche que vos équipes trouvent pénible, on les associe aux tests et on les forme. Un assistant qui leur retire une corvée s'adopte plus facilement qu'un outil imposé.</p>
-        </details>
-        <details>
-          <summary>Travaillez-vous partout en France&nbsp;?</summary>
-          <p>Oui. Tout se fait à distance&nbsp;: appels en visio et accès sécurisés à vos outils.</p>
-        </details>
+        <details><summary>Faut-il savoir coder&nbsp;?</summary><p>Non. Vos équipes donnent leurs consignes en français, comme à un collaborateur. On s'occupe de l'installation et des réglages techniques.</p></details>
+        <details><summary>Pourquoi Claude Code et Codex plutôt que ChatGPT&nbsp;?</summary><p>Un chatbot répond dans une fenêtre et il faut tout copier-coller. Claude Code et Codex sont des agents&nbsp;: ils lisent vos fichiers, appliquent votre charte et produisent le travail fini directement dans vos dossiers et vos outils.</p></details>
+        <details><summary>Est-ce que ça remplace mon équipe marketing&nbsp;?</summary><p>Non, ça la démultiplie. Votre équipe décide, relit et valide. L'IA fait la production&nbsp;: premiers jets, déclinaisons, mises en forme, rapports.</p></details>
+        <details><summary>Que deviennent mes données&nbsp;?</summary><p>On utilise les offres professionnelles des éditeurs et on règle avec vous ce qui est partagé. Chaque réglage est documenté pour votre conformité au RGPD.</p></details>
+        <details><summary>Combien ça coûte&nbsp;?</summary><p>Deux postes&nbsp;: les abonnements aux outils, à prix fixe chaque mois, et notre prestation d'installation et de suivi. Vous recevez un chiffrage précis après l'audit de 30 minutes, avant tout engagement.</p></details>
+        <details><summary>Travaillez-vous partout en France&nbsp;?</summary><p>Oui. Installation, formation et suivi se font à distance, en visio, avec un accès sécurisé à vos postes.</p></details>
       </div>
     </div>
   </section>
@@ -284,14 +228,12 @@
   <section class="final" aria-labelledby="final-t">
     <div class="wrap">
       <div class="final-box">
-        <div>
-          <h2 id="final-t">Quelle tâche vous coûte le plus d'heures chaque semaine&nbsp;?</h2>
-          <p>Racontez-la-nous en 30 minutes. Vous repartez avec une réponse claire&nbsp;: automatisable ou non, comment, et à quel prix.</p>
-        </div>
-        <div>
-          <a class="btn" href="https://calendly.com/j50-lefeuvre/30min" target="_blank" rel="noopener">Réserver un appel <span class="arrow" aria-hidden="true">→</span></a>
-          <p class="alt-contact">Ou écrivez-nous&nbsp;: <a href="mailto:contact@stripsflow.com">contact@stripsflow.com</a></p>
-        </div>
+        <div class="grid-bg" aria-hidden="true"></div>
+        <span class="eyebrow">Appel de 30 minutes</span>
+        <h2 id="final-t">Combien vous coûte votre marketing externe&nbsp;?<br><span class="grad">Faisons le calcul ensemble.</span></h2>
+        <p>En 30 minutes, on regarde ce que vous sous-traitez aujourd'hui et ce que vous pourriez produire en interne, avec le coût de chaque option.</p>
+        <a class="btn btn-primary" href="https://calendly.com/j50-lefeuvre/30min" target="_blank" rel="noopener">Réserver mon appel <span class="arrow" aria-hidden="true">→</span></a>
+        <p class="alt">Ou écrivez-nous&nbsp;: <a href="mailto:contact@stripsflow.com">contact@stripsflow.com</a></p>
       </div>
     </div>
   </section>
@@ -300,7 +242,7 @@
 
 <footer class="site-footer">
   <div class="wrap">
-    <span>© 2026 Neora Group LLC</span>
+    <span>© 2026 Stripflow · Neora Group LLC</span>
     <nav aria-label="Informations légales">
       <a href="mentions-legales.html">Mentions légales</a>
       <a href="confidentialite.html">Politique de confidentialité</a>
