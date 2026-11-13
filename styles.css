@@ -227,3 +227,11 @@ section { scroll-margin-top: 80px; }
 @media (max-width: 620px) { .legal dl { grid-template-columns: 1fr; gap: 2px; } .legal dd { margin-bottom: 12px; } }
 .todo { background: rgba(232, 121, 249, .18); color: var(--magenta); padding: 0 .35em; border-radius: 4px; font-weight: 600; }
 .site-header .nav .btn-back { padding: .7em 1.1em; }
+
+/* Sélecteur de langue */
+.lang-switch { display: inline-flex; align-items: center; padding: 3px; border-radius: 10px; border: 1px solid var(--line-2); background: var(--panel); gap: 2px; }
+.nav .lang-switch a.l { display: inline-flex; align-items: center; justify-content: center; min-width: 34px; padding: 6px 8px; border-radius: 7px; font: 600 .76rem/1 var(--f-mono); letter-spacing: .06em; color: var(--fg-2); text-decoration: none; }
+.nav .lang-switch a.l:hover { color: var(--fg); background: var(--panel-2); }
+.nav .lang-switch a.l[aria-current="true"] { color: #fff; background: linear-gradient(135deg, #8b5cf6, #c026d3); }
+@media (max-width: 900px) { .nav .lang-switch a.l { display: inline-flex; } .nav { gap: 10px; } }
+@media (max-width: 420px) { .nav .btn { padding: .7em .8em; font-size: .82rem; } }
